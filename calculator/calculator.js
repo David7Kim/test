@@ -94,6 +94,9 @@ $(function(){
             menu_tab.css("display","block");
         }
         else{
+            // if ($("body").click()){
+            //     menu_tab.css("display","none");
+            // }
             menu_tab.css("display","none");
         }
     });
@@ -116,7 +119,7 @@ $(function(){
        var i= 0;
         if (i <1){
             i++;
-        $(".content").append('<div class="container_crazy"><div class="val_1"><label>URL<input class="url_1"type="text"></label></div>'+
+        $("body").append('<div class="container_crazy"><div class="val_1"><label>URL<input class="url_1"type="text"></label></div>'+
         '<div class="val_2"><label>TIME<input class="time_1"type="text"></label></div>'+
         '<button class="btn_star"type="button">GO</button><button class="rmove">삭제</button></div> ');
     
