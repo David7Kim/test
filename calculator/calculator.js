@@ -17,7 +17,7 @@ $(document).ready(function(){
     
     });
     
-     var btn_close = $(".btn_close").on("click",function(){
+      var btn_close = $(".btn_close").on("click",function(){
         
        
         

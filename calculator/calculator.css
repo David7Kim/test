@@ -52,7 +52,7 @@ a:hover{
 
 
 .calculator{width:200px;
-            position: relative;
+            position: absolute;
             border : 1px solid gray;
             display: none;}
 
