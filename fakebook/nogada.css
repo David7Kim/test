@@ -1,0 +1,130 @@
+/* nogada.css
+    created by tykim */
+
+*, 
+*::before
+*::after{ box-sizing: border-box;
+
+}
+body{
+    min-width: 1060px;
+}
+
+.header {background: #3B5998;
+        height: 82px;
+        position: relative;
+        border-bottom: 1px solid #133783}
+
+.container{ 
+            background:transparent;}
+
+.homelink {float :left;
+        position: absolute;
+        left: 1.5%;
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        margin:15px 70px 20px;
+        text-decoration-line: none;
+        }
+
+
+
+nav{float:right;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin: 12px 130px;}
+
+.content {
+       
+        background: linear-gradient(white, #D3D8E8);
+       
+        }
+
+.content_bx{
+            margin:0 50px;
+            max-width:980px;}
+.contents_1{ float:left;
+            width:50%;}
+
+.contents_2{float:right;
+           
+           
+            width:50%;}
+
+/*  여기는 기존에 존재한 계정이 털리는 부분입니다. */
+input[type="email"]{ width:142px;
+                    border:1px solid;
+                    border-color: #1d2a5b;}
+
+input[type="password"]{ width:142px;
+                        border:1px solid;
+                        border-color: #1d2a5b;}                    
+input[type="submit"]{
+                    border-radius: 2px;
+                    font-size:12px;
+                    font-weight: bold;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color :white;
+                    background:#4267b2;
+                    border-color: #29487d;
+                    white-space: nowrap;
+                    line-height: 18px;
+                    padding:2px 6px;
+                    vertical-align: top;
+                    cursor: pointer; }
+input[type="submit"]:hover{background:#1a366e;}
+/*  여기는 기존에 존재한 계정이 털리는 부분입니다. */
+
+input[type="text"]{border-radius: 5px;
+                    height:30px;}
+.n_password{border-radius: 5px;
+            height:30px;
+            }
+.find{text-decoration-line: none;}
+.find:hover{text-decoration-line:underline; }
+
+.btn_sub{margin-top: 10px;
+         margin-bottom:10px;}
+
+        
+.btn_register{background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+    padding: 5px 45px;
+    font-size:24px;}
+.btn_register:hover{    background: linear-gradient(#79bc64, #578843);}
+
+.ment_fa{ margin:40px 0px 0px;
+        color:#0e385f;
+        font-size: 20px;
+        font-weight: bold}
+
+
+/* contents_2 부분입니다. */
+
+.h_1{font-size: 2.3rem;
+    font-weight: bold;
+    
+    }
+.h_2{font-size: 1.2rem;
+     font-weight: bold;
+    margin-top:10px}
+
+.bir_h{font-size:15px;
+        color:gray;}
+
+.sex_h{font-size:15px;
+            color:gray;}
+.naming{margin-top:20px;}
+.phone{margin-top:10px;}
+.passwd{margin-top:10px;}
+.birth{margin-top:20px;}
+.sex{margin-top:10px;}
+.radio_sex{margin-top:10px;}
